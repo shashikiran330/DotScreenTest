@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void gameTimer() {
 
         final  TextView  countTime = findViewById(R.id.timer);
-        new CountDownTimer(20000, 1000){
+        new CountDownTimer(180000, 1000){
             public void onTick(long millisUntilFinished){
 
                 NumberFormat f = new DecimalFormat("00");
